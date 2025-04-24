@@ -7,6 +7,7 @@
 ;;; Code:
 
 (use-package modus-themes
+  :disabled t
   :demand t
   :init
   (setq modus-themes-common-palette-overrides
@@ -17,13 +18,18 @@
         modus-themes-bold-constructs nil
         modus-themes-org-blocks 'gray-background)
   :config
-  (modus-themes-select 'modus-operandi-tinted))
+  (modus-themes-select 'modus-operandi-deuteranopia))
+
+(use-package ef-themes
+  :demand t
+  :config
+  (ef-themes-select 'ef-maris-light))
 
 ;;================================================================================
 (use-package doom-themes
   :disabled t
   :demand t
-  ;; :init
+  :init
   ;; Global settings (defaults)
   ;; (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
   ;;       doom-themes-enable-italic t) ; if nil, italics is universally disabled
@@ -36,7 +42,7 @@
   ;; (load-theme 'doom-solarized-light t)
   ;; (load-theme 'doom-nord t)
   ;; (load-theme 'doom-nord-light t)
-  ;; (load-theme 'doom-spacegrey t)
+  (load-theme 'doom-spacegrey t)
   ;; (load-theme 'doom-wilmersdorf t)
   ;; (load-theme 'doom-monokai-octagon t)
   ;; (load-theme 'doom-zenburn t)
@@ -57,12 +63,6 @@
   ;; Corrects (and improves) org-mode's native fontification.
   ;; (doom-themes-org-config)
   )
-
-(use-package ef-themes
-  :disabled t
-  :demand t
-  :config
-  (ef-themes-select 'ef-eagle))
 
 ;; (use-package tron-legacy-theme
 ;;   :custom
