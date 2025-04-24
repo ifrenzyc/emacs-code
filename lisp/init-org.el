@@ -809,7 +809,7 @@ text and copying to the killring."
 
 (use-package org-sticky-header
   :disabled t
-  :hook (org-mode . org-sticky-header-mode)  
+  :hook (org-mode . org-sticky-header-mode)
   :config
   ;; Show full path in header
   (setq org-sticky-header-full-path 'full)

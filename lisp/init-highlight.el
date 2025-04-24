@@ -418,7 +418,7 @@ If there is only one overlay at point, just return it, no matter region or symbo
   (highlight-symbol-mode t))
 
 ;; Visually highlight the selected buffer.
-;; 高亮光标所在的 window
+;; 高亮光标所在的 buffer
 ;; - https://github.com/gonewest818/dimmer.el
 ;; (use-package dimmer
 ;;   :init

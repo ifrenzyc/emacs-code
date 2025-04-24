@@ -61,6 +61,9 @@
   (set-fill-column 89)
   (auto-fill-mode t)                    ; 自动将内容换行
 
+  (setopt show-paren-context-when-offscreen t
+          blink-matching-paren-highlight-offscreen t)
+  
   (setq line-move-visual nil)
   (setq track-eol t)                    ; Keep cursor at end of lines. Require line-move-visual is nil.
 

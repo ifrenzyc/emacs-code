@@ -47,8 +47,6 @@
 
   (defun yc/turn-on-rime-input-method ()
     (interactive)
-    ;; (set-cursor-color "Orange")
-    ;; (shell-command-to-string "osascript ~/bin/turn_on_rime_input_method_global.scpt")
     (shell-command-to-string "/opt/homebrew/bin/macism com.apple.keylayout.US")
     (deactivate-input-method)
     (setq-local default-input-method "rime")
