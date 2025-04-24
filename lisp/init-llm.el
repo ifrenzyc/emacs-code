@@ -83,6 +83,10 @@
   (setopt ellama-translation-provider (make-llm-ollama
                                        :chat-model "deepseek-r1:14b"
                                        :embedding-model "deepseek-r1:14b"))
+  
+  (setopt ellama-coding-provider (make-llm-ollama
+                                  :chat-model "qwen2.5-coder:32b"
+                                  :embedding-model "qwen2.5-coder:32b"))
   ;; Naming new sessions with llm
   (setopt ellama-naming-scheme 'ellama-generate-name-by-llm)
   
