@@ -31,6 +31,8 @@ elgrep-data.el
 tramp
 transient/
 tutorial/
+elpaca/
+wombag/
 url/
 var/
 emms/
