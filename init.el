@@ -133,9 +133,9 @@
 (require 'init-llm)
 
 (require 'init-org)
-(require 'init-org-agenda)
+;; (require 'init-org-agenda)
 ;; (require 'init-org-journal)
-(require 'init-org-roam)
+;; (require 'init-org-roam)
 ;; (require 'init-svg-tag)
 ;; (require 'init-deft)
 (require 'init-markdown)
