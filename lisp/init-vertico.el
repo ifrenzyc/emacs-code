@@ -56,7 +56,7 @@
      (consult-lsp-diagnostics)))
   :config
   (vertico-mode +1)
-  (vertico-multiform-mode)
+  ;; (vertico-multiform-mode)
   (vertico-indexed-mode)
   ;; Prefix the current candidate with “» ”. From
   ;; https://github.com/minad/vertico/wiki#prefix-current-candidate-with-arrow
