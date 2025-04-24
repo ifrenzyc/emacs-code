@@ -30,8 +30,8 @@
   ;;            treemacs-filewatch-mode
   ;;            treemacs-fringe-indicator-mode
   ;;            treemacs-git-mode)
-  :custom-face
-  (treemacs-window-background-face ((t (:background "#efe9dd" :height 160))))
+  ;; :custom-face
+  ;; (treemacs-window-background-face ((t (:height 160))))
   ;; (treemacs-window-background-face ((t (:backgroupd "#1e1e1e" :height 160))))
   :custom
   (treemacs-collapse-dirs                 (if (treemacs--find-python3) 3 0))
@@ -65,10 +65,10 @@
   (treemacs-space-between-root-nodes      t)
   (treemacs-tag-follow-cleanup            t)
   (treemacs-tag-follow-delay              1.5)
-  (treemacs-width                         35)
+  (treemacs-width                         55)
   :hook
   (treemacs-mode . (lambda ()
-                     (setq-local line-spacing 0.9)
+                     ;; (setq-local line-spacing 0.9)
                      (setq-local truncate-lines t)
                      (setq-local word-wrap nil)))
   :config
@@ -107,7 +107,7 @@
   :demand t
   :load-path "localelpa/treemacs-nerd-icons"
   :custom-face
-  (treemacs-nerd-icons-root-face ((t (:inherit nerd-icons-green :height 1.3))))
+  (treemacs-nerd-icons-root-face ((t (:inherit nerd-icons-green :height 1.0))))
   (treemacs-nerd-icons-file-face ((t (:inherit nerd-icons-dsilver))))
   :config
   (treemacs-load-theme "nerd-icons"))

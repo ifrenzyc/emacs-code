@@ -79,7 +79,10 @@
 (defun yc/apply-monofont ()
   (interactive)
   ;; (setq buffer-face-mode-face '(:family "Anonymous Pro" :height 160))
-  (setq buffer-face-mode-face '(:family "IBM Plex Mono" :weight regular :height 130))
+  ;; IBM Plex Mono
+  ;; Maple Mono Normal
+  ;; Cascadia Code
+  (setq buffer-face-mode-face '(:family "Maple Mono Normal" :weight regular :height 130))
   (setq-local line-spacing 0.2)
   (buffer-face-mode t))
 
