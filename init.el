@@ -145,7 +145,7 @@
 (require 'init-projectile)
 (require 'init-frame)
 ;; (require 'init-persp)
-;; (require 'init-tab-bar)
+(require 'init-tab-bar)
 
 (require 'init-vcs)
 
