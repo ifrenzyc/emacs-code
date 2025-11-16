@@ -85,3 +85,9 @@
 [submodule "localelpa/LSP-copilot"]
 	path = localelpa/LSP-copilot
 	url = git@github.com:TerminalFi/LSP-copilot.git
+[submodule "localelpa/emigo"]
+	path = localelpa/emigo
+	url = git@github.com:MatthewZMD/emigo.git
+[submodule "localelpa/vue-ts-mode"]
+	path = localelpa/vue-ts-mode
+	url = git@github.com:8uff3r/vue-ts-mode.git
